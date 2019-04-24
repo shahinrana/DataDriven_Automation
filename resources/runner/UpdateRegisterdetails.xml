@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UpdateRegisterdetails Suite" parallel="tests" thread-count="5">
+<!--<listeners>
+<listener class-name="com.test.automation.UIAutomation.customListener.Listener"></listener>
+<listener class-name="com.test.automation.UIAutomation.customListener.RetryListener"></listener>
+</listeners>-->
+  <test name="UpdateRegisterdetails">
+    <classes>
+      <class name="com.test.automation.UIAutomation.tests.UpdateRegisterdetailsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

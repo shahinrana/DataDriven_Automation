@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11922" started-at="2018-05-30T05:39:36Z" finished-at="2018-05-30T05:39:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11922" started-at="2018-05-30T05:39:36Z" finished-at="2018-05-30T05:39:48Z">
+      <class name="com.test.automation.UIAutomation.ruffwork.EmailTest">
+        <test-method status="PASS" signature="testMailSending()[pri:0, instance:com.test.automation.UIAutomation.ruffwork.EmailTest@1e6d1014]" name="testMailSending" duration-ms="11834" started-at="2018-05-30T01:39:36Z" finished-at="2018-05-30T01:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMailSending -->
+      </class> <!-- com.test.automation.UIAutomation.ruffwork.EmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

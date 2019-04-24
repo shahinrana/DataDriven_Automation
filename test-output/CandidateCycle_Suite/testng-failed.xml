@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [CandidateCycle_Suite]" parallel="methods">
+  <test name="CandidateLifeCycle(failed)" parallel="methods">
+    <classes>
+      <class name="com.test.automation.UIAutomation.tests.CandidateHiredCycle">
+        <methods>
+          <include name="searchRequirement"/>
+          <include name="assessment"/>
+          <include name="selectMatches"/>
+          <include name="shortlisted"/>
+          <include name="offerRecived"/>
+          <include name="submission"/>
+          <include name="close"/>
+          <include name="AddCandidateReferences"/>
+          <include name="interview"/>
+          <include name="setUp1"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="prospective"/>
+        </methods>
+      </class> <!-- com.test.automation.UIAutomation.tests.CandidateHiredCycle -->
+    </classes>
+  </test> <!-- CandidateLifeCycle(failed) -->
+</suite> <!-- Failed suite [CandidateCycle_Suite] -->

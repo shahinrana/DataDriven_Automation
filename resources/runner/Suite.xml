@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rangam US suite" parallel="true" thread-count="3">
+	<listeners>
+		<listener class-name="com.test.automation.UIAutomation.customListener.Listener" />
+		<listener
+			class-name="com.test.automation.UIAutomation.customListener.RetryListener" />
+	</listeners>
+	<test name="LoginTestNG" enabled="true" preserve-order="false">
+		<classes>
+			<class
+				name="com.test.automation.UIAutomation.tests.VerifiyLoginWithDifferentRecords"></class>
+		</classes>
+	</test>
+	<test name="CandidatCycle" enabled="true" preserve-order="false">
+		<classes>
+			<class name="com.test.automation.UIAutomation.tests.CandidateHiredCycle" />
+		</classes>
+	</test>
+ 	<test name="NewRequirementTest" enabled="false" preserve-order="false">
+		<classes>
+			<class name="com.test.automation.UIAutomation.tests.NewRequirementTest" />
+		</classes>
+	</test>
+	<test name="AssessmentCandidateTest" enabled="false"
+		preserve-order="false">
+		<classes>
+			<class
+				name="com.test.automation.UIAutomation.tests.AssessmentCandidateTest" />
+		</classes>
+	</test>
+		<test name="DashboardAdminHeaderTest" enabled="false"
+		preserve-order="false">
+		<classes>
+			<class
+				name="com.test.automation.UIAutomation.tests.DashboardAdminHeaderTest" />
+		</classes>
+	</test>
+	<test name="UpdateRegisterdetails" enabled="false" preserve-order="false">
+		<classes>
+			<class
+				name="com.test.automation.UIAutomation.tests.UpdateRegisterdetailsTest" />
+		</classes>
+	</test> 
+
+	<!-- <suite-files> <suite-file path="CandidateCycle.xml" /> <suite-file 
+		path="CandidateCycle.xml" /> <suite-file path="DashboardAdminHeaderTest.xml"/> 
+		<suite-file path="LoginTestNG.xml"/> <suite-file path="AssessmentCandidateTest.xml"/> 
+		<suite-file path="NewRequirementTest.xml" /> <suite-file path="UpdateRegisterdetails.xml"/> 
+		</suite-files> -->
+</suite>

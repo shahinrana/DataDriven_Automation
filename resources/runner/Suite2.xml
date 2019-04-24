@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rangam US suite" parallel="classes" thread-count="2">
+	<listeners>
+		<listener class-name="com.test.automation.UIAutomation.customListener.Listener" />
+		<listener
+			class-name="com.test.automation.UIAutomation.customListener.RetryListener" />
+	</listeners>
+	<test name="LoginTestNG" enabled="true">
+		<classes>
+			<class
+				name="com.test.automation.UIAutomation.tests.VerifiyLoginWithDifferentRecords" />
+			<class name="com.test.automation.UIAutomation.tests.CandidateHiredCycle" />
+		</classes>
+	</test>
+
+	<!-- <suite-files> <suite-file path="CandidateCycle.xml" /> <suite-file 
+		path="DashboardAdminHeaderTest.xml" /> <suite-file path="LoginTestNG.xml" 
+		/> <suite-file path="AssessmentCandidateTest.xml" /> <suite-file path="NewRequirementTest.xml" 
+		/> <suite-file path="UpdateRegisterdetails.xml" /> </suite-files> -->
+</suite>
